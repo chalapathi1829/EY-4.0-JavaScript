@@ -6,12 +6,28 @@
     <title>Document</title>
     <!-- <script src="app.js"></script> -->
     <script src="function.js"></script>
+    <script>
+        function demo(){
+            // this is to change the text
+            document.getElementById("name").innerHTML ="Hello Hyderabad";
+            // this is to change the background color
+            document.body.style.backgroundColor="lightblue"
+            // this is to change the text color
+            document.body.style.color="red"
+        }
+    </script>
 </head>
 <body>
     <script>
         var b=4
         console.log(b)
     </script>
-    
+    <h1 id="name">Hello World</h1>
+    <br>
+    <button onclick="demo()">Change Text</button>
+    <button onclick="print()">Print</button>
+    <p>OG (also marketed as They Call Him OG) is an upcoming Indian Telugu-language action crime film written and directed by Sujeeth. Produced by D. V. V. Danayya under DVV Entertainment, the film stars Pawan Kalyan in the titular role, alongside Emraan Hashmi (in his Telugu film debut) and Priyanka Mohan.</p>
 </body>
 </html>
+
+
