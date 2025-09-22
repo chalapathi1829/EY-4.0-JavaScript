@@ -37,6 +37,7 @@ console.log(`value of un is ${un} and type of d is ${typeof un}`)
 arr=[1,"hello",true,null,undefined]
 console.log(typeof arr)
 console.log(`value of arr is ${arr} and type of arr is ${typeof arr}`)
+//2. Object
 data={
     name:"john",
     age:30,
