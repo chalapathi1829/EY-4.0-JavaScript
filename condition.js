@@ -24,3 +24,11 @@ for(i=0; i<5; i++){
     // document.write("<br>" + i);
     document.write("<br>"+i,"\n");
 }
+
+// Example of while loop
+j=0
+while(j<5){
+    document.write("<br>" + j);
+    j++;
+}
+
